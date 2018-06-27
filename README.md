@@ -7,7 +7,9 @@ Tinypngをコマンドラインから使うために作っている個人プロ�
 
 `gem specific_install -l https://github.com/logictkt/tinypng_cli.git`
 
-`tinypng_cli convert {file_path}`
+`tinypng_cli init {API Key}`
+
+`tinypng_cli convert {file_path} {file_path}`
 
 > file_pathはFinderから軽量化したい画像を D&D すると簡単に入力できます。
 
