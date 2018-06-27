@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
 require "tinypng_cli"
+TinypngCli::CLI.start
