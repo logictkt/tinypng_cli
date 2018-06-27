@@ -8,6 +8,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.3)
+    httpclient (2.8.3)
     rake (10.5.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
@@ -23,6 +24,8 @@ GEM
       rspec-support (~> 3.7.0)
     rspec-support (3.7.1)
     thor (0.20.0)
+    tinify (1.5.0)
+      httpclient (~> 2.6)
 
 PLATFORMS
   ruby
@@ -31,6 +34,7 @@ DEPENDENCIES
   bundler (~> 1.16)
   rake (~> 10.0)
   rspec (~> 3.0)
+  tinify
   tinypng_cli!
 
 BUNDLED WITH
